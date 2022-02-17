@@ -5,12 +5,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css">
     <link rel="stylesheet" href="./CSS/styles.css">
     <title>WebStudio</title>
 </head>
 <body>
+    <div class="container">
 <!--Шапка страницы-->
-<header>
+<header class="header">
     <!--Навигация-->
     <nav class="nav">
         <a class="nav-logo" href="WebStudio" lang="en">Web<span class="style-logo">Studio</span></a>
@@ -35,19 +37,19 @@
     <h1 hidden>Filters and projects</h1>
     <ul class="filters-list">
         <li  class="filter-item">
-            <button class="filter" type="button">Все</button>
+            <button class="filter all" type="button">Все</button>
         </li>
         <li class="filter-item">
-            <button class="filter" type="button">Веб-сайты</button>
+            <button class="filter web" type="button">Веб-сайты</button>
         </li>
         <li class="filter-item">
-            <button class="filter" type="button">Приложения</button>
+            <button class="filter app" type="button">Приложения</button>
         </li>
         <li class="filter-item">
-            <button class="filter" type="button">Дизайн</button>
+            <button class="filter design" type="button">Дизайн</button>
         </li>
         <li class="filter-item">
-            <button class="filter" type="button">Маркетинг</button>
+            <button class="filter marketing" type="button">Маркетинг</button>
         </li>
     </ul>
         <ul class="portfolio-list">
@@ -133,5 +135,6 @@
     </ul>
     </address>
 </footer>
+</div>
 </body>
 </html>
