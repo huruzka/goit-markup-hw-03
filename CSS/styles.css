@@ -17,15 +17,12 @@ h2,
 h3,
 h4,
 h5,
-h6{
-    margin: 0;
-}
-p{
-    margin: 0;
-}
+h6,
+p,
 ul{
     margin: 0;
 }
+
 a{
     text-decoration: none;
 }
@@ -36,8 +33,11 @@ ul{
 
 /*стиль для body*/
 .container{
-  width: 1200px;  
-  margin: 0px;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 body{
@@ -49,17 +49,11 @@ body{
     letter-spacing: 0.03em;
     }
 
-.header{
-    display: inline-flex;
-    width: 1600px;
-    height: 80px;
-}
-
 /*стиль логотипа*/
 .nav-logo{
     width: 145px;
     height: 31px;
-    margin: 24px 93px 25px 15px;
+    margin: 24px 0px 25px 15px;
     text-decoration: none;
     font-family: Raleway;
     font-weight: 700;
@@ -74,50 +68,35 @@ body{
 
 /*стиль навигации*/
 .nav{
+    display: flex;
+    align-items: center;
+
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    }
+      }
 .nav-list{
-     display: inline-flex;
+     display: flex;
+     margin-left: 93px;
     }
-.nav-studio,
-.nav-studio current {
-    width: 49px;
-    height: 16px;
-    margin: 32px 50px 32px 0px;
+.nav-list .nav-item + .nav-item{
+    margin-left: 50px;
 }
-.nav-portfolio,
-.nav-portfolio current{
-    width: 77px;
-    height: 16px;
-    margin: 32px 50px 32px 0px;
-}
-.nav-contacts{
-    width: 68px;
-    height: 16px;
-    margin: 32px 331px 32px 0px;
-}
+.nav-link{
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
 
+    color: var(--titels-color);
+}
 .contact-list{
-    display: inline-flex;
+    display: flex;
+    margin-left: auto;
 }
-.email{
-    width: 135px;
-    height: 16px;
-    margin: 32px 50px 32px 0px;
+.contact-list .item + .item{
+    margin-left: 50px;
 }
-.tel{
-    width: 122px;
-    height: 16px;
-    margin: 32px 15px 32px 0px;
-}
-    .nav-studio,
-    .nav-portfolio,
-    .nav-contacts{
-        color: var(--titels-color);
-    }
 
 .nav-list :hover,
 .nav-list :focus{
@@ -146,12 +125,16 @@ body{
 
 /* стили секция герой*/
 .hero-section{
-    width: 1600px;
-    height: 600px;
     background-color: var(--background-hero-section);
 }
 
 .hero-titel{
+    width: 696px;
+    height: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
     font-size: 44px;
@@ -163,10 +146,15 @@ body{
     }
 
 .hero-button{
+    display: block;
+    width: 200px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+
     font-weight: bold;
     font-size: 16px;
     line-height: 1.87;
-    display: flex;
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
@@ -176,9 +164,22 @@ body{
     border-radius: 4px;
     cursor: pointer
 }
+/*стили наши преимущества*/
 
+.advantage-list{
+    display: flex;
+}
+.advantage-dsc{
+    padding-top: 20px;
+}
+
+/*стили чем мы занимаемся*/
 /* стили секции преимущества*/
 .advantage-titel{
+    position: absolute;
+    width: 270px;
+    height: 16px;
+    
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;

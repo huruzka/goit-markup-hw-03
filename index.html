@@ -12,25 +12,25 @@
 <body>
     <div class="container">
 <!--Шапка страницы-->
-<header class="header">
-    <!--Навигация-->
+<header class="container">
+        <!--Навигация-->
     <nav class="nav">
         <a class="nav-logo" href="WebStudio" lang="en">Web<span class="style-logo">Studio</span></a>
         <ul class="nav-list">
-          <li><a class="nav-studio current" href="">Студия</a></li>
-          <li><a class="nav-portfolio" href="./portfolio.html">Портфолио</a></li>
-          <li><a class="nav-contacts" href="">Контакты</a></li>
+          <li class="nav-item" ><a class="nav-link current" href="">Студия</a></li>
+          <li class="nav-item" ><a class="nav-link" href="./portfolio.html">Портфолио</a></li>
+          <li class="nav-item" ><a class="nav-link" href="">Контакты</a></li>
         </ul>
-    </nav>
     <!--Контакты-->
     <ul class="contact-list">
-        <li>
+        <li class="item">
             <a class="email" href="mailto:info@devstudio.com">info@devstudio.com</a>
         </li>
-        <li>
+        <li class="item">
             <a class="tel" href="tel:+380961111111">+38 096 111 11 11</a>
         </li>
     </ul>
+</nav>
 </header>
 <!--Главная секция-->
 <main class="hero-section">
@@ -38,29 +38,32 @@
     <button class="hero-button" type="button">Заказать услугу</button>
 </main>
 <!--Секция- преимущества-->
-<section class="advantage">
+<section>
+    <div class="advantage">
     <h2 hidden>Наши преимущества</h2>
     <ul class="advantage-list">
-        <li>
+        <li class="advantage-item">
             <h3 class="advantage-titel">Внимание к деталям</h3>
             <p class="advantage-dsc">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
         </li>
-        <li>
+        <li class="advantage-item">
             <h3 class="advantage-titel">Пунктуальность</h3>
             <p class="advantage-dsc">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
         </li>
-        <li>
+        <li class="advantage-item">
             <h3 class="advantage-titel">Планирование</h3>
             <p class="advantage-dsc">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
         </li>
-        <li>
+        <li class="advantage-item">
             <h3 class="advantage-titel">Современные технологии</h3>
             <p class="advantage-dsc">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
         </li>
     </ul>
+</div>
 </section>
 <!--Секция - Чем мы занимаемся -->
-<section class="Do">
+<section>
+    <div class="do">
     <h2 class="titel">Чем мы занимаемся</h2>
     <ul class="Do-list">
         <li class="do-list-item">
@@ -73,6 +76,7 @@
             <img src="./images/img2.jpg" alt="рисование на планшете" width="370" height="294"/>
         </li>
     </ul>
+</div>
 </section>
 <!--Секция- Наша команда-->
 <section class="team">
