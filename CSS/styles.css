@@ -172,12 +172,14 @@ body{
     cursor: pointer
 }
 /*стили наши преимущества*/
+.advantage{
+    margin-bottom: 94px;
+}
 
 .advantage-list{
     display: flex;
     flex-wrap: wrap;
     padding-inline-start: 0px;
-    margin-bottom: 94px;
 }
 .advantage-list .advantage-item{
     width: 270px;
@@ -186,7 +188,6 @@ body{
 .advantage-item:last-child{
     margin-right: 0px;
 }
-
 .advantage-titel{
     margin-bottom: 10px;
 
@@ -273,6 +274,9 @@ body{
 }
 
 /*кнопки фильтров*/
+.portfolio{
+    margin-bottom: 94px;
+}
 .filters-list{
     width: 611px;
     height: 54px;
@@ -350,7 +354,7 @@ body{
     margin-right: 0px;
 }
 .portfolio-item:nth-last-child(-n+3){
-    margin-bottom: 94px;
+    margin-bottom: 0px;
 }
 /*стиль футер*/
 .footer{
