@@ -23,15 +23,13 @@ p,{
     margin: 0;
 }
 ul{
+    padding: 0px;
     padding-inline-start: 0px;
     margin: 0;
+    list-style-type: none;
 }
 a{
     text-decoration: none;
-}
-
-ul{
-    list-style-type: none;
 }
 
 /*стиль для body*/
@@ -251,7 +249,6 @@ body{
 }
 .team-person{
     margin-right: 30px;
-    border: 1px solid var(--border-color);
     background-color: var(--white-color);
 }
 .team-person:last-child{
