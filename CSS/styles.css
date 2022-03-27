@@ -417,14 +417,12 @@ header{
     font-size: 14px;
     line-height: 1.71;
 }
-
-.address{
+.address-list:last-child{
     margin-bottom: 9px;
-    color: var(--white-color);
 }
 
-.footer-email{
-    margin-bottom: 9px;
+.address{
+    color: var(--white-color);
 }
 
 .footer-email,
