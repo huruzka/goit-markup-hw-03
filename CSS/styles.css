@@ -20,13 +20,15 @@ h3,
 h4,
 h5,
 h6,
-p,{
-    margin: 0;
+p {  
+    margin: 0px;
+    padding: 0px;
 }
+
 ul{
     padding: 0px;
     padding-inline-start: 0px;
-    margin: 0;
+    margin: 0px;
     list-style-type: none;
 }
 a{
@@ -247,6 +249,7 @@ header{
 
 /*стили- наша команда*/
 .team{
+    padding-top: 94px;
     padding-bottom: 94px;
     background-color: var(--background-team);
 }
@@ -289,11 +292,16 @@ header{
 .portfolio{
     padding-bottom: 94px;
 }
+
+.section{
+    margin-top: 94px;
+    margin-bottom: 94px;
+}
+
 .filters-list{
     display: flex;
     justify-content: center;
-    padding-top: 94px;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
     margin-right: auto;
     margin-left: auto;
 }
@@ -372,7 +380,6 @@ header{
 .portfolio-list{
     display: flex;
     flex-wrap: wrap;
-    padding-bottom: 94px;
 }
 .portfolio-titel{
     margin-bottom: 4px;
