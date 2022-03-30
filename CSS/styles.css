@@ -424,7 +424,7 @@ header{
     font-size: 14px;
     line-height: 1.71;
 }
-.address-list:last-child{
+.address-item:not(:last-child){
     margin-bottom: 9px;
 }
 
