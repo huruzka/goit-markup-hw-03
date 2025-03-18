@@ -14,7 +14,7 @@ body {
 }
 .conteiner{
     max-width: 1158px;
-    margin: 0;
+    margin: 0 auto;
     padding: 0 15px;
 }
 ul{
@@ -58,7 +58,7 @@ img {
     display: flex;
 }
 .header-navigation {
-     display: flex;
+     display: inline-flex;
 }
 .header-links{
     display: flex;
@@ -102,10 +102,12 @@ img {
 color: #2e2f42;
 }
 
+.hero {
+    background-color: #2E2F42;
+}
 .hero-section {
     margin: 0 auto;
     font-weight: 700;
-    background-color: #2E2F42;
     color: #FFFFFF;
     text-align: center;
 }
