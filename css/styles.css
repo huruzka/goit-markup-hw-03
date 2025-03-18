@@ -54,11 +54,9 @@ img {
     max-width: 100%;
 }
 
-.header {
+
+.header-navigation{
     display: flex;
-}
-.header-navigation {
-     display: inline-flex;
 }
 .header-links{
     display: flex;
@@ -72,7 +70,6 @@ img {
     font-style: normal;
 }
 .contacts-lits{
-    display: flex;
     letter-spacing: 0.02em;
 }
 .section {
@@ -91,15 +88,19 @@ img {
     letter-spacing: 0.03em;
     font-weight: 700;
     text-transform: uppercase;
+    padding: 24px 76px 24px 156px;
 }
 .logo-header-studio{
     color: #2e2f42;
     font-weight: 700;
     letter-spacing: 0.02em;
 }
+.header-links{
 
+}
 .header-link-studio {
 color: #2e2f42;
+padding: 24px 40px 24px 0;
 }
 
 .hero {
