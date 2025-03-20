@@ -56,6 +56,7 @@ img {
 
 .header .conteiner{
     display: flex;
+    justify-content: space-between;
 }
 .header {
     border-bottom: 1px solid #E7E9FC;
@@ -68,7 +69,7 @@ img {
     letter-spacing: 0.03em;
     font-weight: 700;
     text-transform: uppercase;
-    padding: 24px 76px 24px 0
+    padding: 24px 76px 24px 0;
 }
 .logo-header-studio {
     color: #2e2f42;
@@ -114,15 +115,16 @@ img {
     background-color: #2E2F42;
 }
 .hero-section {
-    margin: 0 auto;
-    font-weight: 700;
-    color: #FFFFFF;
     text-align: center;
 }
 .hero-title{
-        font-size: 56px;
-        line-height: 1.07;
-        letter-spacing: 0.02em
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    max-width: 496px;
+    margin: 0 auto;
 }
 
 .hero-button{
@@ -134,16 +136,22 @@ img {
     background-color: #4D5AE5;
     color: #FFFFFF;
     border-radius: 4px;
-    padding: 16px 32px;
+    width: 169px;
+    height: 56px;
     border: 0px;
+    margin-top: 48px;
 }
 
 .philosophy-list {
      display: flex;
-     gap: 8px;
+     gap: 24px;
+     flex-basis: calc((100% - 264px)/4);
 }
 .philosophy-title{
     display: none;
+}
+.philosophy-subtitle{
+    margin-bottom: 8px;
 }
 .philosophy-text{
     line-height: 1.5;
