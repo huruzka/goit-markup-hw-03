@@ -121,7 +121,7 @@ img {
     letter-spacing: 0.02em;
 }
 
-.section .hero{
+.hero{
     padding: 188px 0;
 }
 .hero {
@@ -188,12 +188,12 @@ img {
     display: flex;
     gap: 24px;
     flex-basis: calc((100% - 3 * 24px) / 4);
+    
 }
-.photo{
-    border-radius: 0px 0px 4px 4px;
-}
+
 .team-photo{
     background-color: #FFFFFF;
+    border-radius: 0px 0px 4px 4px;
 }
 .team-title{
     font-size: 36px;
