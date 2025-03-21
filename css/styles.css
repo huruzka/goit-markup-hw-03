@@ -121,7 +121,7 @@ img {
     letter-spacing: 0.02em;
 }
 
-.section {
+.section .hero{
     padding: 188px 0;
 }
 .hero {
@@ -154,12 +154,14 @@ img {
     margin: 0 auto;
 }
 
-.section .philosophy{
+.philosophy {
     padding: 120px 0;
 }
 .philosophy-list {
     display: flex;
     gap: 24px;
+}
+.philosophy-column{
     flex-basis: calc((100% - 3 * 24px) / 4);
 }
 .philosophy-subtitle{
@@ -170,10 +172,9 @@ img {
     letter-spacing: 0.02em;
 }
 
-.section .team {
-    padding: 120px 0;
-}
+
 .team{
+    padding: 120px 0;
     background-color: #F4F4FD;
 }
 .team-name{
@@ -187,6 +188,8 @@ img {
     display: flex;
     gap: 24px;
     flex-basis: calc((100% - 3 * 24px) / 4);
+}
+.photo{
     border-radius: 0px 0px 4px 4px;
 }
 .team-photo{
@@ -213,8 +216,8 @@ img {
     letter-spacing: 0.02em;
 }
 
-.section .portfolio {
-    padding: 120px 0;
+.portfolio{
+    padding: 120px 0 120px 0;
 }
 .portfolio-list{
     display: flex;
@@ -259,6 +262,7 @@ img {
 }
 .footer-logo {
     display: inline-block;
+    margin-bottom: 16px;
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     line-height: 1.17;
@@ -274,5 +278,4 @@ img {
     letter-spacing: 0.02em;
     color:#F4F4FD;
     width: 264px;
-    margin-top: 16px;
 }
