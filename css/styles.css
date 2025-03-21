@@ -121,7 +121,7 @@ img {
     letter-spacing: 0.02em;
 }
 
-.section .hero{
+.section {
     padding: 188px 0;
 }
 .hero {
@@ -153,7 +153,8 @@ img {
     color: #FFFFFF;
     margin: 0 auto;
 }
-.section {
+
+.section .philosophy{
     padding: 120px 0;
 }
 .philosophy-list {
@@ -169,6 +170,9 @@ img {
     letter-spacing: 0.02em;
 }
 
+.section .team {
+    padding: 120px 0;
+}
 .team{
     background-color: #F4F4FD;
 }
@@ -209,6 +213,9 @@ img {
     letter-spacing: 0.02em;
 }
 
+.section .portfolio {
+    padding: 120px 0;
+}
 .portfolio-list{
     display: flex;
     flex-wrap: wrap;
