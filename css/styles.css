@@ -211,6 +211,7 @@ img {
     flex-wrap: wrap;
     gap: 24px;
 }
+
 .portfolio-name{
     border-top: 0;
     border-right: 1px solid #E7E9FC;
@@ -218,6 +219,7 @@ img {
     border-left: 1px solid #E7E9FC;
     width: 360px;
     height: 120px;
+    margin-bottom: 48px;
 }
 .portfolio-title{
     font-size: 36px;
